@@ -28,7 +28,7 @@ audit trails and data governance, but also debugging of data flows.
 Airflow tracks data by means of inlets and outlets of the tasks. Let's work from an example and see how it
 works.
 
-.. code:: python
+.. code-block:: python
 
     from airflow.operators.bash_operator import BashOperator
     from airflow.operators.dummy_operator import DummyOperator
